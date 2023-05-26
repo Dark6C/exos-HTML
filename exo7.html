@@ -15,30 +15,30 @@
             <legend class="identity">Votre identité</legend>
             <div>
                 <label for="Nom">1. Nom : </label>
-                <input type="text" id="name" value="Nom">
+                <input type="text" id="Nom" placeholder="Dupont" name="lname">
             </div>
             <div>
                 <label for="surname">2. Prénom : </label>
-                <input type="text" id="surname" value="Prénom">
+                <input type="text" id="surname" placeholder="Jean">
             </div>
             <div>
                 <label for="email">3. Adresse mail : </label>
-                <input type="text" id="mail" value="adresse mail">
+                <input type="email" id="email" placeholder="Jean.dupont@gmail.com">
             </div>
         </fieldset>
         <fieldset class="delivery">
             <legend class="delivery">Adresse de livraison</legend>
             <div>
                 <label for="adresse">1. adresse : </label>
-                <input type="text" id="adresse" value=>
+                <textarea type="text" id="adresse" placeholder="rue des développeurs"></textarea>
             </div>
             <div>
                 <label for="Code postal">2. Code postal : </label>
-                <input type="text" id="code postal" value="code postal">
+                <input type="text" id="Code postal" placeholder="75005">
             </div>
             <div>
                 <label for="Ville">3. Ville : </label>
-                <input type="text" id="Ville" value="Ville">
+                <input type="text" id="Ville" placeholder="Paris">
             </div>
         </fieldset>
         <fieldset class="payment">
@@ -48,29 +48,29 @@
             </div>
 
             <div>
-                <input type="checkbox" id="VISA" name="VISA" checked>
+                <input type="radio" id="VISA" name="cb">
                 <label for="VISA">VISA</label>
             </div>
 
             <div>
-                <input type="checkbox" id="Mastercard" name="Mastercard">
+                <input type="radio" id="Mastercard" name="cb">
                 <label for="Mastercard">Mastercard</label>
             </div>
             <div>
                 <label for="numerodelacarte">2. Numéro de carte : </label>
-                <input type="text" id="numerodelacarte" value="Numéro de carte">
+                <input type="text" id="numerodelacarte" placeholder="4820 **** **** 1478" name="numbercb">
             </div>
             <div>
                 <label for="codedesécu">3. Code de sécurité : </label>
-                <input type="text" id="codedesécu" value="Code de sécurité">
+                <input type="text" id="codedesécu" placeholder="7**1">
             </div>
             <div>
                 <label for="nomdutitulaire">4. Nom du titulaire : </label>
-                <input type="text" id="nomdutitulaire" value="Nom du titulaire">
+                <input type="text" id="nomdutitulaire" placeholder="Dupont Jean">
             </div>
         </fieldset>
         <div>
-            <input type="button" value="J'achète !">
+            <button type="submit">J'achète !</button>
         </div>
     </form>
 
