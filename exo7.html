@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exo7.css">
+    <title>Exercice7</title>
+</head>
+
+<body>
+    <form>
+        <fieldset class="identity">
+            <legend class="identity">Votre identité</legend>
+            <div>
+                <label for="Nom">1. Nom : </label>
+                <input type="text" id="name" value="Nom">
+            </div>
+            <div>
+                <label for="surname">2. Prénom : </label>
+                <input type="text" id="surname" value="Prénom">
+            </div>
+            <div>
+                <label for="email">3. Adresse mail : </label>
+                <input type="text" id="mail" value="adresse mail">
+            </div>
+        </fieldset>
+        <fieldset class="delivery">
+            <legend class="delivery">Adresse de livraison</legend>
+            <div>
+                <label for="adresse">1. adresse : </label>
+                <input type="text" id="adresse" value=>
+            </div>
+            <div>
+                <label for="Code postal">2. Code postal : </label>
+                <input type="text" id="code postal" value="code postal">
+            </div>
+            <div>
+                <label for="Ville">3. Ville : </label>
+                <input type="text" id="Ville" value="Ville">
+            </div>
+        </fieldset>
+        <fieldset class="payment">
+            <legend class="payment">Informations de réglement</legend>
+            <div>
+                <label for="Nom">1. Type de carte bancaire : </label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="VISA" name="VISA" checked>
+                <label for="VISA">VISA</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="Mastercard" name="Mastercard">
+                <label for="Mastercard">Mastercard</label>
+            </div>
+            <div>
+                <label for="numerodelacarte">2. Numéro de carte : </label>
+                <input type="text" id="numerodelacarte" value="Numéro de carte">
+            </div>
+            <div>
+                <label for="codedesécu">3. Code de sécurité : </label>
+                <input type="text" id="codedesécu" value="Code de sécurité">
+            </div>
+            <div>
+                <label for="nomdutitulaire">4. Nom du titulaire : </label>
+                <input type="text" id="nomdutitulaire" value="Nom du titulaire">
+            </div>
+        </fieldset>
+        <div>
+            <input type="button" value="J'achète !">
+        </div>
+    </form>
+
+</body>
+
+</html>
