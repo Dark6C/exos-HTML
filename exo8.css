@@ -1,0 +1,17 @@
+body{
+    font-family: 'Coming Soon', cursive;
+}
+ol>:first-child{
+    color: blue;
+}
+
+ol>:last-child{
+    color: grey;
+}
+
+ol>:first-child>ul>:first-child,ol>:first-child> ul>:nth-child(2) {
+    color: red;
+}
+ol>:first-child>ul>:nth-child(3){
+    color: green;
+}
